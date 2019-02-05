@@ -76,7 +76,7 @@ int main(){
   std::cout << result << std::endl << std::endl;
   std::cout << "Computed | Known Optimal:" << std::endl;
   for(int i = 0; i < result.size(); i++){
-    std::cout << result[i] << " | " << optimal[i] << ", digit " << i + 1 
+    std::cout << result[i] << " | " << optimal[i] << ", digit " << i + 1
       << " " << ((result[i] == optimal[i]) ? "same" : "differ") << std::endl;
   }
 }
